@@ -1,5 +1,5 @@
 {
-  "name": "resize-fnt",
+  "name": "scale-fnt",
   "version": "0.0.1",
   "description": "scale fnt by node",
   "main": "lib/scale-fnt.js",
