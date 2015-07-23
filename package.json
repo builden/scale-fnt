@@ -1,0 +1,35 @@
+{
+  "name": "resize-fnt",
+  "version": "0.0.1",
+  "description": "scale fnt by node",
+  "main": "lib/scale-fnt.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/builden/scale-fnt.git"
+  },
+  "keywords": [
+    "fnt",
+    "bmfont",
+    "resize"
+  ],
+  "author": "builden <billdeng@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.0",
+    "debug": "^2.2.0",
+    "load-bmfont": "^1.2.3",
+    "lodash": "^3.10.0",
+    "scale-img": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "del": "^1.2.0",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.2.5"
+  }
+}
