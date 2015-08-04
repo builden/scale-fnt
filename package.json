@@ -1,6 +1,6 @@
 {
   "name": "scale-fnt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "scale fnt by node",
   "main": "lib/scale-fnt.js",
   "scripts": {
@@ -20,9 +20,9 @@
   "dependencies": {
     "async": "^1.4.0",
     "debug": "^2.2.0",
+    "gm-helper": "0.0.2",
     "load-bmfont": "^1.2.3",
-    "lodash": "^3.10.0",
-    "scale-img": "0.0.2"
+    "lodash": "^3.10.0"
   },
   "devDependencies": {
     "chai": "^3.2.0",
