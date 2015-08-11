@@ -1,5 +1,8 @@
 # scale-fnt History
 
+## 0.0.3 / 2015-08-11
+* create dir when destPath not exist
+
 ## 0.0.2 / 2015-08-04
 * use gm-helper module
 
