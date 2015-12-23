@@ -1,10 +1,10 @@
 var expect = require('chai').expect;
 var scaleFnt = require('../lib/scale-fnt.js');
 var fs = require('fs');
-var gm = require('gm');
 var del = require('del');
 var async = require('async');
 var fntLoad = require('load-bmfont');
+var Jimp = require('jimp');
 
 var tmpPath = 'test/tmp-result-res';
 describe('scale-fnt', function () {
@@ -26,9 +26,9 @@ describe('scale-fnt', function () {
           });
         },
         png: function (callback) {
-          gm(tmpPath + '/beerUI.png').size(function (err, size) {
-            expect(size.width).to.equal(84);
-            expect(size.height).to.equal(86);
+          Jimp(tmpPath + '/BeerUI.png', (err, img) => {
+            expect(img.bitmap.width).to.equal(84);
+            expect(img.bitmap.height).to.equal(86);
             callback(err);
           });
         }

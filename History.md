@@ -1,5 +1,8 @@
 # scale-fnt History
 
+## 0.0.5 / 2015-12-23
+* replace gm module to Jimp
+
 ## 0.0.4 / 2015-08-26
 * update dep gm-helper
 
